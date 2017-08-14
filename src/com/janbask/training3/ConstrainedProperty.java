@@ -1,5 +1,6 @@
 package com.janbask.training3;
 import java.beans.*;
+
 public class ConstrainedProperty {
 
     /*
