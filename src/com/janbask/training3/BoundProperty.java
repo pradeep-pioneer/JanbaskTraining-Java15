@@ -6,7 +6,7 @@ import java.beans.*;
     Author: Pradeep Singh
 */
 
-public class BoundProperty {
+public class BoundProperty implements java.io.Serializable {
     private int mMouthWidth = 90;
     private PropertyChangeSupport mPcs =
             new PropertyChangeSupport(this);

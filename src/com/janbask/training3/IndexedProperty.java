@@ -6,7 +6,7 @@ import java.util.*;
     Author: Pradeep Singh
 */
 
-public class IndexedProperty {
+public class IndexedProperty implements java.io.Serializable {
 
     // a vector that contains the actual stock names
     protected Vector stocks = new Vector();

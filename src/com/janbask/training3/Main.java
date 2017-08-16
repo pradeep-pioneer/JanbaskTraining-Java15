@@ -31,6 +31,9 @@ public class Main {
         //print the stock at the last position
         System.out.format("\n\nStock at last position\nStock Name: %s\n***********", lastStock);
 
+        //ToDo: Extract a stock from the 3 position
+        //ToDo: Append additional 4 stocks to the Indexed Property Object and enumerate all stocks in the output
+
         //Bound property usage and event handlers
         BoundProperty boundProperty = new BoundProperty();
         boundProperty.addPropertyChangeListener(new PropertyChangeListener() {
